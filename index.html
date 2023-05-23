@@ -13,33 +13,62 @@
 <body>
 
   <nav class="col-12">
-    Features
-    Company
-    Careers
-    About
-    <button>
+    <img src="images/logo.svg" alt="">
+    <div><button class="dropdown" id="features">Features</button><img src="images/icon-arrow-down.svg" alt="arrow-down"><img src="images/icon-arrow-up.svg" alt="arrow-up">
+      <div>
+        <a href="#"><img src="images/icon-todo.svg" alt="to do list">To do list</a>
+        <a href="#"><img src="images/icon-calendar.svg" alt="calendar">Calendar</a>
+        <a href="#"><img src="images/icon-reminders.svg" alt="reminders">Reminders</a>
+        <a href="#"><img src="images/icon-planning.svg" alt="planning">Planning</a>
+      </div>
+    </div>
+    <div><button class="dropdown" id="company">Company</button><img src="images/icon-arrow-down.svg" alt="arrow-down"><img src="images/icon-arrow-up.svg" alt="arrow-up">
+      <div>
+        <a href="#">History</a>
+        <a href="#">Our Team</a>
+        <a href="#">Blog</a>
+      </div>
+    </div>
+    <a href="#">Careers</a>
+    <a href="#">About</a>
+    <button id="login">
       Login
     </button>
-    <button>
+    <button id="register">
       Register
     </button>
   </nav>
-
+  
   <main class="col-10">
-    <div class="col-7">
+    <section class="col-7">
       <h1>Make remote work</h1>
       <p>
         Get your team in sync, no matter your location. Streamline processes,
         create team rituals, and watch productivity soar.
       </p>
-      <button>
+      <button id="learnmore">
         Learn more
       </button>
-    </div>
-    <div class="col-5">
-      <img src="images/image-hero-desktop.png" alt="hero-desktop">
-    </div>
+      <article class="row">
+        <div class="col-3">
+          <img src="images/client-databiz.svg" alt="databiz">
+        </div>
+        <div class="col-3">
+          <img src="images/client-audiophile.svg" alt="audiophile">
+        </div>
+        <div class="col-3">
+          <img src="images/client-meet.svg" alt="meet">
+        </div>
+        <div class="col-3">
+          <img src="images/client-maker.svg" alt="">
+        </div>
+      </article>
+    </section>
+    <section class="col-5">
+      <img src="images/image-hero-desktop.png" alt="hero-desktop" class="mainpic">
+    </section>
   </main>
+
   
   <footer class=" col-12 attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
